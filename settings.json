@@ -10,7 +10,7 @@
   "server": {
     "ip": "ExitedRetards.aternos.me",
     "port": 33432,
-    "version": false,
+    "version": "1.21.4",
     "try-creative": false
   },
 
@@ -20,11 +20,14 @@
 
   "utils": {
     "anti-afk": {
-      "enabled": false
+      "enabled": false,
+      "sneak": false
     },
 
     "chat-messages": {
       "enabled": false,
+      "repeat": false,
+      "repeat-delay": 120,
       "messages": []
     },
 
@@ -36,7 +39,20 @@
   },
 
   "movement": {
-    "enabled": false
+    "enabled": false,
+    "circle-walk": {
+      "enabled": false,
+      "radius": 0,
+      "speed": 0
+    },
+    "look-around": {
+      "enabled": false,
+      "interval": 0
+    },
+    "random-jump": {
+      "enabled": false,
+      "interval": 0
+    }
   },
 
   "modules": {
@@ -47,7 +63,27 @@
     "console-commands": false
   },
 
+  "combat": {
+    "attack-mobs": false,
+    "auto-eat": false
+  },
+
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+
   "discord": {
-    "enabled": false
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": false,
+      "disconnect": false,
+      "chat": false
+    }
+  },
+
+  "chat": {
+    "respond": false
   }
 }
