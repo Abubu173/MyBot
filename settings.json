@@ -1,24 +1,30 @@
 {
   "name": "AFK Bot",
-
   "bot-account": {
-    "username": "SlobotIdle",
+    "username": "Slobot00",
     "password": "",
     "type": "offline"
   },
-
   "server": {
-    "ip": "ExitedRetards.aternos.me",
-    "port": 33432,
+    "ip": "slobtest1.aternos.me",
+    "port": 27586,
     "version": "1.21.4",
     "try-creative": false
   },
 
   "position": {
-    "enabled": false
+    "enabled": false,
+    "x": 0,
+    "y": 100,
+    "z": 0
   },
 
   "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "chalol78"
+    },
+
     "anti-afk": {
       "enabled": false,
       "sneak": false
@@ -32,9 +38,8 @@
     },
 
     "chat-log": false,
-
     "auto-reconnect": true,
-    "auto-reconnect-delay": 30000,
+    "auto-reconnect-delay": 10000,
     "max-reconnect-delay": 300000
   },
 
