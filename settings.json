@@ -8,7 +8,7 @@
   "server": {
     "ip": "ExitedRetards.aternos.me",
     "port": 33432,
-    "version": "",
+    "version": "auto",
     "try-creative": false
   },
 
