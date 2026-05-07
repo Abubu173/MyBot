@@ -8,7 +8,7 @@
   "server": {
     "ip": "ExitedRetards.aternos.me",
     "port": 33432,
-    "version": "auto",
+    "version": "1.21.4",
     "try-creative": false
   },
 
@@ -26,8 +26,8 @@
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false
+      "enabled": true,
+      "sneak": true
     },
 
     "chat-messages": {
@@ -39,8 +39,8 @@
 
     "chat-log": false,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 10000,
-    "max-reconnect-delay": 300000
+    "auto-reconnect-delay": 1000,
+    "max-reconnect-delay": 3000
   },
 
   "movement": {
