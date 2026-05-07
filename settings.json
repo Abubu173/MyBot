@@ -1,14 +1,16 @@
 {
   "name": "AFK Bot",
+
   "bot-account": {
     "username": "SlobotIdle",
     "password": "",
     "type": "offline"
   },
+
   "server": {
     "ip": "ExitedRetards.aternos.me",
     "port": 33432,
-    "version": "1.21.4",
+    "version": false,
     "try-creative": false
   },
 
@@ -17,11 +19,6 @@
   },
 
   "utils": {
-    "auto-auth": {
-      "enabled": true,
-      "password": "chalol78"
-    },
-
     "anti-afk": {
       "enabled": false
     },
