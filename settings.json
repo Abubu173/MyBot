@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "BotToKeepItOnline",
+    "username": "Slobot00",
     "password": "",
     "type": "offline"
   },
@@ -11,32 +11,38 @@
     "version": "1.21.4",
     "try-creative": false
   },
+
   "position": {
     "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
   },
+
   "utils": {
     "auto-auth": {
       "enabled": true,
       "password": "chalol78"
     },
+
     "anti-afk": {
       "enabled": false,
       "sneak": false
     },
+
     "chat-messages": {
       "enabled": false,
       "repeat": false,
       "repeat-delay": 120,
       "messages": []
     },
-    "chat-log": true,
+
+    "chat-log": false,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 10000,
+    "max-reconnect-delay": 300000
   },
+
   "movement": {
     "enabled": false,
     "circle-walk": {
@@ -53,6 +59,7 @@
       "interval": 0
     }
   },
+
   "modules": {
     "avoidMobs": false,
     "combat": false,
@@ -60,14 +67,17 @@
     "chat": false,
     "console-commands": false
   },
+
   "combat": {
     "attack-mobs": false,
     "auto-eat": false
   },
+
   "beds": {
     "pick-up-day": false,
     "place-night": false
   },
+
   "discord": {
     "enabled": false,
     "webhookUrl": "",
@@ -77,6 +87,7 @@
       "chat": false
     }
   },
+
   "chat": {
     "respond": false
   }
