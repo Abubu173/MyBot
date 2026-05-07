@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "legendsmc001.aternos.me",
-    "port": 61459,
+    "ip": "ExitedRetards.aternos.me",
+    "port": 33432,
     "version": "",
     "try-creative": false
   },
